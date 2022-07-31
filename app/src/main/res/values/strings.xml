@@ -1,0 +1,4 @@
+<resources>
+	<string name="app_name">MovieReviewApp</string>
+	<string name="server_error">Ошибка  получения данных с сервера</string>
+</resources>

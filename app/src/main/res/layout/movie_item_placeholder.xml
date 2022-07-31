@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/large_padding"
+	android:orientation="vertical">
+
+	<ImageView
+		android:id="@+id/movie_poster"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/poster_placeholder_height"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		android:background="@color/background" />
+
+	<TextView
+		android:id="@+id/movie_title"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/standard_padding"
+		style="@style/TitleText"
+		android:background="@color/background"
+		app:layout_constraintEnd_toEndOf="@+id/movie_poster"
+		app:layout_constraintStart_toStartOf="@+id/movie_poster"
+		app:layout_constraintTop_toBottomOf="@+id/movie_poster" />
+
+	<TextView
+		android:id="@+id/movie_summary"
+		android:layout_width="0dp"
+		style="@style/StandardText"
+		android:layout_height="wrap_content"
+		android:lines="5"
+		android:layout_marginTop="@dimen/standard_padding"
+		android:background="@color/background"
+		app:layout_constraintEnd_toEndOf="@+id/movie_poster"
+		app:layout_constraintStart_toStartOf="@+id/movie_poster"
+		app:layout_constraintTop_toBottomOf="@+id/movie_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>
