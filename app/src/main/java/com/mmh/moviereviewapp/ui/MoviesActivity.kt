@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.mmh.moviereviewapp.data.entities.Movie
-import com.mmh.moviereviewapp.data.retrofitApis.MovieApi
+import com.mmh.moviereviewapp.data.network.MovieApi
 import com.mmh.moviereviewapp.databinding.ActivityMoviesBinding
 import com.mmh.moviereviewapp.utils.MovieEvent
 import com.mmh.moviereviewapp.utils.showToast

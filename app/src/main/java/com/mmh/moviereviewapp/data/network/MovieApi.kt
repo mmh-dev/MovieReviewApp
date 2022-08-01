@@ -1,4 +1,4 @@
-package com.mmh.moviereviewapp.data.retrofitApis
+package com.mmh.moviereviewapp.data.network
 
 import com.mmh.moviereviewapp.data.entities.MovieResponse
 import retrofit2.Call

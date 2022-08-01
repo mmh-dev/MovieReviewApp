@@ -1,6 +1,6 @@
 package com.mmh.moviereviewapp.di
 
-import com.mmh.moviereviewapp.data.retrofitApis.MovieApi
+import com.mmh.moviereviewapp.data.network.MovieApi
 import com.mmh.moviereviewapp.utils.BASE_URL
 import dagger.Module
 import dagger.Provides

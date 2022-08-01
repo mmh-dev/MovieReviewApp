@@ -1,12 +1,8 @@
 package com.mmh.moviereviewapp.data.repository
 
-import android.content.Context
 import com.mmh.moviereviewapp.BuildConfig
-import com.mmh.moviereviewapp.R
-import com.mmh.moviereviewapp.data.entities.MovieResponse
-import com.mmh.moviereviewapp.data.retrofitApis.MovieApi
+import com.mmh.moviereviewapp.data.network.MovieApi
 import com.mmh.moviereviewapp.utils.Resource
-import com.mmh.moviereviewapp.utils.showToast
 import javax.inject.Inject
 
 class MovieRepository @Inject constructor(
